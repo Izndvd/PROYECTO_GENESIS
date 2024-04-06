@@ -3,6 +3,12 @@
   color: blueviolet;
                 
   ;}
+
+  .title2{
+    text-align: center;
+    color: blueviolet;
+  }
+
 a {
     color: inherit;
     text-decoration: none;
@@ -39,3 +45,15 @@ a {
     }
   
 .titulo1 {color: white;}
+
+.navbarrr{
+  color: white
+  ;
+}
+
+.contenedor {
+  width: 100%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
