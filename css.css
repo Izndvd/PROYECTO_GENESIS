@@ -6,8 +6,26 @@
 
   .title2{
     text-align: center;
-    color: blueviolet;
+    color: #33105d;
+    font-weight: bold;
+    font-size: 170%;
   }
+
+  .subrayado::after {
+    content: ""; /* Agrega contenido al pseudo-elemento */
+    position: absolute; /* Establece posición absoluta para el subrayado */
+    left: 0; /* Alinea el subrayado con el borde izquierdo del contenedor */
+    bottom: -2px; /* Coloca el subrayado justo debajo del texto */
+    width: 100%; /* Establece el ancho del subrayado */
+    height: 3px; /* Establece el grosor del subrayado */
+    background-color: #014ba0; /* Color del subrayado */
+}
+
+.subrayado {
+  position: relative; /* Establece posición relativa para el contenedor */
+}
+
+
 
 a {
     color: inherit;
